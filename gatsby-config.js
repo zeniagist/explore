@@ -1,13 +1,23 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Explore`,
+    description: `Travel website built with Gatsby and Sanity`,
+    author: `@zeniagist`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-fontawesome-css`,
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-source-sanity`,
+      options: {
+        projectId: `fws6u5l0`,
+        dataset: `production`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
