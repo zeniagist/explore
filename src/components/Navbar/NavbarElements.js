@@ -1,6 +1,6 @@
-import styled from "styled-components"
-import { DiScala } from "react-icons/di"
 import { Link } from "gatsby"
+import { DiScala } from "react-icons/Di"
+import styled from "styled-components"
 
 export const Nav = styled.nav`
   background: ${({ active }) =>
@@ -22,7 +22,7 @@ export const Nav = styled.nav`
   }
 `
 
-export const NavContainer = styled.div`
+export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
   height: 80px;
@@ -72,7 +72,7 @@ export const NavMenu = styled.ul`
     height: 90vh;
     position: absolute;
     top: 80px;
-    top: ${({ click }) => (click ? "100%" : "-1000px")};
+    top: ${({ click }) => (click ? "100%" : "-20000px")};
     opacity: 1;
     transition: all 0.2s ease;
     background: #fff;
