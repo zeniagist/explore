@@ -1,5 +1,5 @@
 import { Link } from "gatsby"
-import { DiScala } from "react-icons/Di"
+import { DiScala } from "react-icons/di"
 import styled from "styled-components"
 
 export const Nav = styled.nav`
