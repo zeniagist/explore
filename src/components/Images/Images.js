@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import Box from "@mui/material/Box"
 import ImageList from "@mui/material/ImageList"
 import ImageListItem from "@mui/material/ImageListItem"
