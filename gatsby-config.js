@@ -11,6 +11,7 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-sass`,
+    `gatsby-theme-material-ui`,
     {
       resolve: `gatsby-source-sanity`,
       options: {

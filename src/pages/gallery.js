@@ -1,12 +1,14 @@
 import React from "react"
+import Images from "../components/Images/Images"
+
 import Layout from "../components/Layout/Layout"
 
-const Images = () => {
+const Gallery = () => {
   return (
     <Layout>
-      <h1>Images</h1>
+      <Images />
     </Layout>
   )
 }
 
-export default Images
+export default Gallery

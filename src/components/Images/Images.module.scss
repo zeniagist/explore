@@ -1,0 +1,26 @@
+.imageContainer {
+  text-align: center;
+  margin: 150px 0;
+}
+
+.imageContainer h1 {
+  margin-bottom: 64px;
+}
+
+.imageGrid {
+  margin: auto 50px;
+}
+.imageItem:nth-child(5) {
+  grid-column-end: span 2;
+}
+
+.imageItem:nth-child(9) {
+  grid-row-start: 4;
+  grid-column-end: span 2;
+}
+
+.imageGrid img:hover {
+  transform: scale(1.1);
+  transition: 0.6s all ease !important;
+  cursor: pointer;
+}

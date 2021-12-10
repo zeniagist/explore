@@ -1,10 +1,12 @@
 import React from "react"
+import DestinationsList from "../components/DestinationsList/DestinationsList"
+import Layout from "../components/Layout/Layout"
 
 const Destinations = () => {
   return (
-    <>
-      <h1>Destinations</h1>
-    </>
+    <Layout>
+      <DestinationsList />
+    </Layout>
   )
 }
 
