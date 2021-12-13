@@ -9,13 +9,7 @@ import * as imagesStyles from "./Images.module.scss"
 const Images = () => {
   const data = useStaticQuery(graphql`
     query ImagesQuery {
-      images: allSanityImages(
-        filter: {
-          title: {
-            nin: ["background", "background2", "svg-1", "svg-2", "svg-3"]
-          }
-        }
-      ) {
+      images: allSanityImages(sort: { fields: title, order: DESC }) {
         edges {
           node {
             title

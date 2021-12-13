@@ -10,7 +10,7 @@ import { Button } from "../ButtonElement"
 const Hero = () => {
   const data = useStaticQuery(graphql`
     query HeroQuery {
-      image: allSanityImages(filter: { title: { eq: "background2" } }) {
+      image: allSanityImages(filter: { title: { eq: "background" } }) {
         edges {
           node {
             image {
