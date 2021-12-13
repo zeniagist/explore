@@ -1,5 +1,5 @@
 import React from "react"
-import DestinationsList from "../components/DestinationsList/DestinationsList"
+import DestinationsList from "../components/DestinationsList"
 import Layout from "../components/Layout/Layout"
 
 const Destinations = () => {

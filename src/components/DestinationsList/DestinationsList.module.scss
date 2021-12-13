@@ -4,5 +4,30 @@
 }
 
 .destinationsContainer h1 {
-  margin-bottom: 64px;
+  font-size: clamp(1.2rem, 5vw, 3rem);
+  text-align: center;
+  margin-bottom: 5rem;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.destinationsGrid {
+  padding: 25px 50px;
+  cursor: pointer;
+}
+
+.destinationsImg {
+  max-width: 80%;
+  border-radius: 10px;
+  filter: brightness(70%);
+  transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.destinationsImg:hover {
+  filter: brightness(100%);
+}
+
+.destinationsTitle {
+  font-weight: 400;
+  font-size: 1.5rem;
 }
