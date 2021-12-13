@@ -71,32 +71,3 @@ const DestinationsList = () => {
 }
 
 export default DestinationsList
-
-// return (
-//     <div className={destinationsListStyles.destinationsContainer}>
-//       <h1>Destinations</h1>
-//       <Container maxWidth="lg">
-//         <Grid container>
-//           {destinationsData.map(item => (
-//             <Grid
-//               item
-//               xs={12}
-//               key={item.node.id}
-//               className={destinationsListStyles.destinationsGrid}
-//             >
-//               <Card square>
-//                 <CardHeader
-//                   title={item.node.location}
-//                   className={destinationsListStyles.destinationsHeader}
-//                 />
-// <GatsbyImage
-//   image={getImage(item.node.image.asset)}
-//   alt={item.node.location}
-// />
-//               </Card>
-//             </Grid>
-//           ))}
-//         </Grid>
-//       </Container>
-//     </div>
-//   )
