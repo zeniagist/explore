@@ -5,7 +5,7 @@ import { convertToBgImage } from "gbimage-bridge"
 import BackgroundImage from "gatsby-background-image"
 
 import * as heroStyles from "./Hero.module.scss"
-import { Button, ButtonLink } from "../ButtonElement"
+import { Button } from "../ButtonElement"
 
 const Hero = () => {
   const data = useStaticQuery(graphql`
