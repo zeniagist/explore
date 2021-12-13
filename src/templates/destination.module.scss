@@ -1,0 +1,32 @@
+.container {
+  margin-top: 64px;
+  padding-bottom: 200px;
+}
+
+.header {
+  padding-top: 50px;
+}
+
+.card {
+  background-color: #000000;
+  pointer-events: none;
+  margin: 20px auto;
+}
+
+.image {
+  height: 500px;
+}
+
+p {
+  margin-bottom: 10px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+  h3 {
+    margin: 0;
+  }
+}

@@ -1,23 +1,11 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import {
-  Card,
-  CardActionArea,
-  CardActions,
-  CardContent,
-  CardMedia,
-  Container,
-  Grid,
-  Paper,
-  Typography,
-  ImageListItem,
-  CardHeader,
-} from "@mui/material"
+import { Container, Grid } from "@mui/material"
 import { ImLocation } from "react-icons/im"
 
 import * as destinationsListStyles from "./DestinationsList.module.scss"
-import { Button, ButtonLink } from "../ButtonElement"
+import { Button } from "../ButtonElement"
 
 const DestinationsList = () => {
   const data = useStaticQuery(graphql`
