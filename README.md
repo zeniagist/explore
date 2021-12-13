@@ -1,12 +1,12 @@
-# Airline Alliance
+# Explore
 
-Single page application built with React that filters cards by alliance partner name. Airline logo, name, alliance partner, number, and URL data populated from JSON URL.
+Explore is group travel booking website made with Gatsby with various destinations and a gallery of previous trips. Images and destination data populated from Sanity headless content management database.
 
-Users can filter search for 3 different alliances and hover over the airline card to get more details.
+Users can view the galley and browse the destinations' description and travel date.
 
-**See the hosted project [here](https://airlines-alliance-filterlist.netlify.app/).**
+**See the hosted project [here](https://explore-zg.netlify.app/).**
 
-![Event Meetup App Showcase](public/airlines-alliance-filterlist-showcase.gif)
+![Explore App Showcase](static/explore.gif)
 
 ## Quick Start 🚀
 
